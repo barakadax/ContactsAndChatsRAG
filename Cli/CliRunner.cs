@@ -10,7 +10,7 @@ internal static class CliRunner
     {
         var lastRenderWidth = 0;
 
-        AnsiConsole.Write(new FigletText("ContactsRag RAG").LeftJustified().Color(Color.Cyan1));
+        AnsiConsole.Write(new FigletText("Contacts & Chat RAG").LeftJustified().Color(Color.Cyan1));
         AnsiConsole.Write(new Rule("[dim]Interactive Chat-Log RAG · .NET 10 · Semantic Kernel · OpenAI[/]")
             .RuleStyle("grey").LeftJustified());
         AnsiConsole.WriteLine();
